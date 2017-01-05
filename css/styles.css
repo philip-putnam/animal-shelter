@@ -44,4 +44,9 @@ header p {
   body {
     background-color: lightblue;
   }
+  header h1 {
+    font-size: 20px;
+    color: darkblue;
+    font-family: fantasy;
+  }
 }
