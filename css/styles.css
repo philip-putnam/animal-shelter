@@ -1,3 +1,6 @@
+body {
+  background-color: lightblue;
+}
 header {
   text-align: center;
 }
@@ -6,21 +9,8 @@ header h1 {
   color: darkblue;
   font-family: fantasy;
 }
-
 header p {
   line-height: 0.5;
-}
-
-.profile img {
-  width: 200px;
-  height: 113px;
-  border-radius: 5px;
-}
-
-.footer {
-  clear: both;
-  font-style: italic;
-  text-align: center;
 }
 .profile {
   float: left;
@@ -32,7 +22,19 @@ header p {
   border-radius: 5px;
   overflow: hidden;
 }
-
+.profile img {
+  width: 200px;
+  height: 113px;
+  border-radius: 5px;
+}
+.name {
+  font-size: 20px;
+}
+.footer {
+  clear: both;
+  font-style: italic;
+  text-align: center;
+}
 @media screen and (max-width: 1000px) and (min-width: 700px) {
   body {
     background-color: pink;
