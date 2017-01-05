@@ -1,8 +1,6 @@
 header {
   text-align: center;
 }
-
-
 header h1 {
   font-size: 50px;
   color: darkblue;
@@ -33,4 +31,15 @@ header p {
   border: 2px solid;
   border-radius: 5px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: pink;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: lightblue;
+  }
 }
